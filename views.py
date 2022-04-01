@@ -12,7 +12,7 @@ def index(request):
 
 
 def file(requeset):
-    output = open('', "r")
+    output = open('file_name', "r")
     f = output.readlines()
     output.close()
     return HttpResponse(f)
