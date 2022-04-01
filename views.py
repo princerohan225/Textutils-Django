@@ -12,7 +12,7 @@ def index(request):
 
 
 def file(requeset):
-    output = open('Backup-codes-princerohan225.txt', "r")
+    output = open('', "r")
     f = output.readlines()
     output.close()
     return HttpResponse(f)
